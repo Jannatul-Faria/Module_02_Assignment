@@ -1,4 +1,6 @@
 <?php
+
+
 function fibonacci($n)
 {
     if ($n <= 1) {
@@ -8,7 +10,7 @@ function fibonacci($n)
     }
 }
 
-for ($i = 0; $i <= 10; $i++) {
+for ($i = 0; $i < 10; $i++) {
     $fibonacciNumber = fibonacci($i);
     if ($fibonacciNumber > 100) {
         break;
